@@ -14,7 +14,8 @@ def print_hi(name):
 if __name__ == '__main__':
     print_hi('PyCharm')
 
-#exec(open("input_output.py").read())
-exec(open("variables.py").read())
+
+fileNme = "functions.py"
+exec(open(fileNme).read())
 
 # See PyCharm help at https://www.jetbrains.com/help/pycharm/
