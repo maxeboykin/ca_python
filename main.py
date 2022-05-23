@@ -4,6 +4,7 @@
 # Press Double ⇧ to search everywhere for classes, files, tool windows, actions, and settings.
 # -*- coding: utf-8 -*-
 
+
 def print_hi(name):
     # Use a breakpoint in the code line below to debug your script.
     print(f'Hi, {name}')  # Press ⌘F8 to toggle the breakpoint.
@@ -13,18 +14,7 @@ def print_hi(name):
 if __name__ == '__main__':
     print_hi('PyCharm')
 
-
-def square(num):
-    numSquared = num * num
-    return numSquared
-
-
-print(square(2))
-name = input("What is your name?")
-print('Very nice to meet you, ', name, '!')
-print(f'Very nice to meet you, {name.upper()}!')
-print('Very nice to meet you, {}!'.format(name))
-
-
+#exec(open("input_output.py").read())
+exec(open("variables.py").read())
 
 # See PyCharm help at https://www.jetbrains.com/help/pycharm/
