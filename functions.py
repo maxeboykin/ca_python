@@ -38,3 +38,7 @@ def factorial(num):
 res = factorial(5)
 print(res)
 
+add_two = lambda x: x + 2  #  lambda functions are good for quick one ine func or when we want to combine with map filter or apply functions
+lambdaResult = add_two(5)
+print(lambdaResult)
+

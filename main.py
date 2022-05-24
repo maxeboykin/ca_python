@@ -15,7 +15,7 @@ if __name__ == '__main__':
     print_hi('PyCharm')
 
 
-fileNme = "functions.py"
+fileNme = "encapsulation.py"
 exec(open(fileNme).read())
 
 # See PyCharm help at https://www.jetbrains.com/help/pycharm/
